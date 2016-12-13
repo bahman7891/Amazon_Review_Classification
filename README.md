@@ -1,5 +1,5 @@
 ## Amazon_Review_Classification
-![alt tag](https://openclipart.org/download/117079/5-Star-Rating-System-20110205103828.svg)
+![alt tag](http://i.stack.imgur.com/B9VWLm.png)
 Using various machine learning algorithms we classify ratings. 
 There are two ipython notebooks for each product. one analyzes the bag of bi-grams and the other analyzes bag of words.
 The notebooks should be self explanatory and run smoothly. 
