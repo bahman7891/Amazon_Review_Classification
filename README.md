@@ -14,3 +14,5 @@ Each notebook contains processor class which processes the data and the rest are
 3rd notebook (Project_ML_NLP_Bahman_Roostaei-3) is for bag of words for DVD reviews.
 
 4th notebook (Project_ML_NLP_Bahman_Roostaei-4) is for bag of bi-grams for DVD reviews.
+
+The details and discussions are inside the notebook. However the model comparison shows that gradient boosting results in a very high F1 score and the best ROC curve (in the case of regression). Based on this support vector does not seem to be necessary although we have tried and concluded that svc does not improve the gradient boosting.
