@@ -4,8 +4,11 @@
 
 Using various machine learning algorithms we classify ratings. 
 There are two ipython notebooks for each product. one analyzes the bag of bi-grams and the other analyzes bag of words.
+
 The notebooks should be self explanatory and run smoothly. 
 Each notebook contains processor class which processes the data and the rest are modeling.
+
+The vocabulary of the train data after stop words removed is over 15900 (ref. the Vocab notebook).
 
 1st notebook (Project_ML_NLP_Bahman_Roostaei) is for bag of words for book reviews.
 
@@ -16,3 +19,4 @@ Each notebook contains processor class which processes the data and the rest are
 4th notebook (Project_ML_NLP_Bahman_Roostaei-4) is for bag of bi-grams for DVD reviews.
 
 The details and discussions are inside the notebook. However the model comparison shows that gradient boosting results in a very high F1 score and the best ROC curve (in the case of regression). Based on this support vector does not seem to be necessary although we have tried and concluded that svc does not improve the gradient boosting.
+
