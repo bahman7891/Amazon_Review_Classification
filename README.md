@@ -6,7 +6,7 @@ Using various machine learning algorithms we classify ratings.
 There are two ipython notebooks for each product. one analyzes the bag of bi-grams and the other analyzes bag of words.
 
 The notebooks should be self explanatory and run smoothly. 
-Each notebook contains processor class which processes the data and the rest are modeling.
+Each notebook contains processor class which processes the data and the rest are modeling.The data are in this ![here] (http://www.cs.jhu.edu/~mdredze/datasets/sentiment/) (the file is called processed_stars).
 
 The vocabulary of the train data after stop words removed is over 15600 (ref. the Vocab notebook).
 
